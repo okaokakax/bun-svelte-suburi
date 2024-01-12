@@ -1,0 +1,2 @@
+# bun-svelte-suburi
+bunでパッケージマネージャーとサーバーの実行をやらせるSvelteアプリの素振り
