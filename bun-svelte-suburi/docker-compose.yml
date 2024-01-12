@@ -1,0 +1,10 @@
+services:
+  bun:
+    build: .
+    container_name: bun
+    ports:
+      - 5173:5173
+    volumes:
+      - ./:/work
+    tty: true
+    command: bun --bun run dev -- --open --host
