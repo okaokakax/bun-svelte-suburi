@@ -3,4 +3,4 @@ COPY . /work
 WORKDIR /work
 RUN bun install
 
-EXPOSE 5173
+EXPOSE 5173 4173
