@@ -13,6 +13,19 @@
 			});
 		});
 	});
+
+	import { Container, Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'sveltestrap';
 </script>
 
-<slot />
+<Navbar color="light" light>
+	<NavbarBrand href="/">Bun + Svelte 素振り</NavbarBrand>
+	<Nav>
+		<NavItem>
+			<NavLink href="/geolocation-test">GeoLocation APIの素振り</NavLink>
+		</NavItem>
+	</Nav>
+</Navbar>
+
+<Container>
+	<slot />
+</Container>
